@@ -51,6 +51,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   clockwork
   digitalocean
   dotenv
