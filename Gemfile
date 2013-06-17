@@ -2,6 +2,7 @@ source "https://rubygems.org"
 ruby '1.9.3'
 
 gem 'activesupport', require: 'active_support/core_ext/string/starts_ends_with'
+gem 'carve'
 gem 'clockwork'
 gem 'digitalocean'
 gem 'dotenv'

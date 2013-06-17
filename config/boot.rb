@@ -10,6 +10,7 @@ Bundler.require(:default, ENV["RACK_ENV"].to_sym)
 Dotenv.load ".env.#{Sinatra::Base.environment.to_s}", '.env'
 
 require './config/constants'
+require './config/carve'
 require './config/digitalocean'
 
 require './app/application'
